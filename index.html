@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- Подключение Bootstrap чтобы все выглядело красиво -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-	<title>satoshi9 - GhostBot</title>
-	<!-- Свои стили -->
-	<style>
-		body {
-			background: #fcfcfc;
-		}
-	</style>
+<meta charset="UTF-8">
+<title>New project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="generator" content="Construct 3">
+
+	<link rel="manifest" href="appmanifest.json">
+	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+	<link rel="icon" type="image/png" href="icons/icon-512.png">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<!-- Создание меню на сайте (без функций) -->
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-		<h5 class="my-0 mr-md-auto">satoshi9</h5>
-	</div>
-		<div class="container">
-		<div class="py-5 text-center">
-			<h1>GhostBot - Дискорд бот!</h2>
-			<a href="https://discord.com/oauth2/authorize?client_id=746427302656606228&permissions=8&scope=bot">Добавьте бота на сервер</a>
-			<h6>GhostBot - Простой дискорд бот на русском, основан в 2020 году сделан на DBM и работает на хостинге хероку(Heroku)</h6>
+<div id="fb-root"></div>
+
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
 		</div>
+	</noscript>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/offlineclient.js"></script>
+	<script src="scripts/main.js"></script>
+	<script src="scripts/register-sw.js"></script>
 </body>
 </html>
